@@ -1,0 +1,37 @@
+@import '../../utils/theme';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.searchContainer {
+  max-width: 400px;
+  text-align: center;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+.hintText {
+  color: $col-grey-3;
+  font-size: .8rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.resultContainer {
+  margin-top: 30px;
+  max-width: 600px;
+}
+

@@ -1,0 +1,35 @@
+// Colors
+$col-white: #fff;
+$col-black: #000;
+$col-danger: #ff602e;
+$col-success: #33bb45;
+$col-brand: #03a7e4;
+$col-grey-0: #fafafa;
+$col-grey-1: #f1f1f1;
+$col-grey-2: #e2e2e2;
+$col-grey-3: #808080;
+
+.input {
+  border: 1px solid $col-grey-2;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.select {
+  cursor: pointer;
+}
+
+.button {
+  background-color: $col-brand;
+  border: 1px solid $col-brand;
+  border-radius: 5px;
+  color: $col-white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+}
